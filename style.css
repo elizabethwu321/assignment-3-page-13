@@ -1,0 +1,85 @@
+body {
+	background-color: black;
+}
+
+@font-face {
+	font-family: "cooper";
+	src: url("fonts/CooperHewitt-Heavy.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "ostrich";
+	src: url("fonts/OstrichSans-Heavy.woff2") format("woff2");
+}
+
+p {
+	font-family: "cooper";
+	font-size: 0px;
+	color: white;
+	margin-top: -10px;
+	text-align: justify;
+}
+
+h6 {
+	font-family: "ostrich";
+	font-size: 60px;
+	color: pink;
+	margin-top: -10px;
+	text-align: justify;
+	font-weight: lighter;
+}
+
+.flex {
+	display: flex;
+	width: 100%;
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+.blue {
+	width: 1000px;
+	height: 480px;
+	z-index: -1;
+	justify-content: justify;
+}
+
+.blue {
+	background-color: transparent;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.green {
+	width: 1000px;
+	height: 480px;
+	z-index: -1;
+	justify-content: justify;
+}
+
+.green {
+	background-color: transparent;
+	margin-top: -450px;
+	margin-left: 50px;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.flex-end {
+	justify-content: flex-end;
+	z-index: -1;
+}
+
+.flex-vertical {
+	display: flex;
+	height: 850px;
+	flex-direction: column;
+	z-index: -1;
+	margin-top: -300px;
+}
+
+
+
